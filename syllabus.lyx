@@ -1,0 +1,332 @@
+#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{layout}
+\usepackage[parfill]{parskip}
+\usepackage[margin=1in]{geometry}
+\geometry{letterpaper}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\lhead{calopensource@gmail.com}
+\chead{Course Syllabus}
+\rhead{Monday 6-8pm}
+
+\usepackage{graphicx} %loads the graphicx.sty package 
+\usepackage{epstopdf} %loads the epstopdf.sty package 
+          % to automatically convert eps files to pdf format 
+
+% the next line converts tif files to png
+\DeclareGraphicsRule{.tif}{png}{.png}{%
+       `convert #1 `dirname #1`/`basename #1 .tif`.png}
+\end_preamble
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Introduction to Open Source Software
+\end_layout
+
+\begin_layout Author
+
+\series bold
+Facilitators:
+\series default
+ Seshadri Mahalingam, Kevin Porter, Anirudh Todi
+\series bold
+
+\begin_inset Newline newline
+\end_inset
+
+Intructor of Record: 
+\series default
+David Wagner
+\end_layout
+
+\begin_layout Date
+Fall 2011
+\end_layout
+
+\begin_layout Part*
+Course Syllabus
+\end_layout
+
+\begin_layout Section
+Course Goals
+\end_layout
+
+\begin_layout Standard
+This course aims to provide a community and lecture series for students
+ to learn the skills they will need to contribute to open-source projects,
+ and large scale software engineering projects in general.
+ If you have ever been interested in joining an open source project but
+ felt that the barrier to entry was too high, this DeCal is for you! 
+\end_layout
+
+\begin_layout Section
+Suggested Prerequisites:
+\end_layout
+
+\begin_layout Standard
+You’ll get the most of out of this class if you’re familiar with at least
+ one language used for open source development (Python, Perl, PHP, Java,
+ C++, C, Ruby and many more) to a 61B level.
+\begin_inset Newline newline
+\end_inset
+
+This course will tend towards technical contribution, but those interested
+ in contributing in design or user experience areas are welcome too.
+ 
+\end_layout
+
+\begin_layout Section
+Evaluation
+\end_layout
+
+\begin_layout Standard
+To complete the decal successfully, you will need to: 
+\end_layout
+
+\begin_layout Itemize
+Contribute to your chosen project through patch submission, UX improvement,
+ or improving code documentation.
+ 
+\end_layout
+
+\begin_layout Itemize
+Post bi-weekly write-ups on the progress you’ve made and topics relating
+ to course material to a personal wiki.
+ These will be graded as per the following scale:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+0 pts - The writeup was not completed
+\end_layout
+
+\begin_layout Itemize
+1 pt - The writeup was satisfactorily completed
+\end_layout
+
+\begin_layout Itemize
+2 pts - Extra credit will be awarded if the student exceeds expectations
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+To pass the class, you will need to average at least 0.7 points on each writeup.
+ 
+\end_layout
+
+\begin_layout Itemize
+Make a final presentation to the class summarizing your work through the
+ semester.
+ Details TBD.
+ 
+\end_layout
+
+\begin_layout Itemize
+Attend the weekly decal meetings.
+ Please email or otherwise notify us ahead of time if you need to miss a
+ meeting, and we’ll let you know how you can make it up.
+\end_layout
+
+\begin_layout Section
+Learning Goals
+\end_layout
+
+\begin_layout Standard
+Students will learn skills for working with large scale projects.
+ These will include: 
+\end_layout
+
+\begin_layout Itemize
+source control systems, bug trackers and software development wikis
+\end_layout
+
+\begin_layout Itemize
+code review systems and how to write readable code 
+\end_layout
+
+\begin_layout Itemize
+how to write and submit a clearly documented patch 
+\end_layout
+
+\begin_layout Itemize
+code design, using automated tools, tricks of the trade
+\end_layout
+
+\begin_layout Section
+Class Format
+\end_layout
+
+\begin_layout Standard
+Meetings will be held on Mondays from 6-8PM in 320 Soda, and will consist
+ of the following format: 
+\end_layout
+
+\begin_layout Itemize
+Lecture -- We’ll present material relating to the class themes for that
+ week or frame case studies for class discussion
+\end_layout
+
+\begin_layout Itemize
+Group Activity -- We’ll frame specific activities relating to current course
+ themes: for example, during discussion of code review approaches, a group
+ activity could involve students reviewing each other’s code
+\end_layout
+
+\begin_layout Itemize
+Collaborative hacking -- Students will work on their projects, asking each
+ other or the facilitators for assistance as needed.
+\end_layout
+
+\begin_layout Standard
+Discussion between students is highly encouraged, and will be facilitated
+ by a mailing list.
+\end_layout
+
+\begin_layout Section
+Possible Lecture Topics:
+\end_layout
+
+\begin_layout Subsection
+Getting Started
+\end_layout
+
+\begin_layout Itemize
+Choosing a project -- feature ideas -- bootstrapped from Google Summer of
+ Code.
+ 
+\end_layout
+
+\begin_layout Itemize
+Using version control (distributed vs centralized) 
+\end_layout
+
+\begin_layout Itemize
+IRC / Wiki use 
+\end_layout
+
+\begin_layout Itemize
+Code Review -- how to talk about your code 
+\end_layout
+
+\begin_layout Itemize
+How to read code -- assignment idea: read a snippet of open-source code
+ and present what it does
+\end_layout
+
+\begin_layout Itemize
+Building your project
+\end_layout
+
+\begin_layout Subsection
+Making Contributions
+\end_layout
+
+\begin_layout Itemize
+Submitting bug reports -- bug tracker tools (Launchpad, bugzilla, trac and
+ others) 
+\end_layout
+
+\begin_layout Itemize
+Using diff tools, submitting patches 
+\end_layout
+
+\begin_layout Itemize
+Reproducible errors -- the art of a good test case
+\end_layout
+
+\begin_layout Itemize
+Documenting and commenting your code 
+\end_layout
+
+\begin_layout Itemize
+Licensing and why it matters -- possibly guest discussion with Prof.
+ Carver @ iSchool 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+GPL-what?
+\end_layout
+
+\begin_layout Itemize
+Using open source code correctly in a commercial/production setting
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Case Studies
+\end_layout
+
+\begin_layout Itemize
+Ubuntu -- Ayatana -- The life-cycle of a paper-cut bug
+\end_layout
+
+\begin_layout Itemize
+SQLite -- an example of readable, well-documented code 
+\end_layout
+
+\begin_layout Itemize
+Google Chrome and Webkit -- guest discussion with a Webkit contributer 
+\end_layout
+
+\begin_layout Itemize
+More TBD
+\end_layout
+
+\begin_layout Section
+Application
+\end_layout
+
+\begin_layout Standard
+To apply for enrollment into the decal, visit the course website (at the
+ top of this syllabus), and click on “Application to join”.
+ Fill out and submit the application by 11:59 PM on Wednesday, Feb 2nd to
+ be considered for enrollment.
+\end_layout
+
+\end_body
+\end_document
