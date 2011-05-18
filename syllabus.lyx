@@ -100,75 +100,107 @@ This course aims to provide a community and lecture series for students
  to learn the skills they will need to contribute to open-source projects,
  and large scale software engineering projects in general.
  If you have ever been interested in joining an open source project but
- felt that the barrier to entry was too high, this DeCal is for you! 
+ felt that the barrier to entry was too high, this DeCal is for you!
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Projects will be worked on in groups of two or more people.
+ 
 \end_layout
 
 \begin_layout Section
-Suggested Prerequisites:
+Suggested Prerequisites
 \end_layout
 
 \begin_layout Standard
 You’ll get the most of out of this class if you’re familiar with at least
  one language used for open source development (Python, Perl, PHP, Java,
  C++, C, Ruby and many more) to a 61B level.
-\begin_inset Newline newline
-\end_inset
-
-This course will tend towards technical contribution, but those interested
+ This course will tend towards technical contribution, but those interested
  in contributing in design or user experience areas are welcome too.
- 
 \end_layout
 
 \begin_layout Section
-Evaluation
+Grading Policy
 \end_layout
 
 \begin_layout Standard
-To complete the decal successfully, you will need to: 
+The course will be offered only on a P/NP basis.
+ The following points dictate requirements to be met to pass the course.
 \end_layout
 
-\begin_layout Itemize
-Contribute to your chosen project through patch submission, UX improvement,
- or improving code documentation.
- 
+\begin_layout Subsection
+Attendance
 \end_layout
 
-\begin_layout Itemize
-Post bi-weekly write-ups on the progress you’ve made and topics relating
- to course material to a personal wiki.
- These will be graded as per the following scale:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-0 pts - The writeup was not completed
-\end_layout
-
-\begin_layout Itemize
-1 pt - The writeup was satisfactorily completed
-\end_layout
-
-\begin_layout Itemize
-2 pts - Extra credit will be awarded if the student exceeds expectations
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-To pass the class, you will need to average at least 0.7 points on each writeup.
- 
-\end_layout
-
-\begin_layout Itemize
-Make a final presentation to the class summarizing your work through the
- semester.
- Details TBD.
- 
-\end_layout
-
-\begin_layout Itemize
-Attend the weekly decal meetings.
+\begin_layout Standard
+The weekly DeCal meetings are mandatory.
+ Up to two absences will be permitted for a passing grade.
  Please email or otherwise notify us ahead of time if you need to miss a
  meeting, and we’ll let you know how you can make it up.
+\end_layout
+
+\begin_layout Subsection
+Contribution
+\end_layout
+
+\begin_layout Standard
+Contribute to your chosen project through patch submission, UX improvement,
+ or improving code documentation.
+ One of the primary objectives of the class is to help you attain a familiarity
+ with open source projects that prompts contribution to the community.
+ As a part of this 
+\begin_inset Quotes eld
+\end_inset
+
+assignment
+\begin_inset Quotes erd
+\end_inset
+
+ post a note on your project page on the class wiki with your name, a link
+ to your commit and a description of what you did.
+\end_layout
+
+\begin_layout Subsection
+Group Presentation
+\end_layout
+
+\begin_layout Standard
+Make a presentation to the class summarizing your work on an open source
+ project.
+ Each project group will be expected to present for approximately 15 minutes,
+ followed by an up to 5 minute question-and-answer session.
+ Your presentation should contain or address the following points:
+\end_layout
+
+\begin_layout Itemize
+A description of the open source project, detailing its function and licence
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+American english uses 
+\begin_inset Quotes eld
+\end_inset
+
+license
+\begin_inset Quotes erd
+\end_inset
+
+ instead.
+\end_layout
+
+\end_inset
+
+ structure
+\end_layout
+
+\begin_layout Subsection
+Assignments
 \end_layout
 
 \begin_layout Section
