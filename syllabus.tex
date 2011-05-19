@@ -1,0 +1,237 @@
+%% LyX 1.6.8 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{array}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{layout}
+\usepackage[parfill]{parskip}
+\usepackage[margin=1in]{geometry}
+\geometry{letterpaper}
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{15.2pt}
+\pagestyle{fancy}
+\lhead{calopensource@gmail.com}
+\chead{Course Syllabus}
+\rhead{Monday 6-8pm}
+
+\usepackage{graphicx} %loads the graphicx.sty package 
+\usepackage{epstopdf} %loads the epstopdf.sty package 
+          % to automatically convert eps files to pdf format 
+
+% the next line converts tif files to png
+\DeclareGraphicsRule{.tif}{png}{.png}{%
+       `convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\usepackage{array}
+\setlength{\extrarowheight}{5pt}
+
+\makeatother
+
+\usepackage{babel}
+
+\begin{document}
+
+\title{Introduction to Open Source Software}
+
+
+\author{\textbf{Facilitators:} Seshadri Mahalingam, Kevin Porter, Anirudh
+Todi\textbf{}\\
+\textbf{Intructor of Record: }David Wagner}
+
+
+\date{Fall 2011}
+
+\maketitle
+
+\part*{Course Syllabus}
+
+
+\section{Course Goals}
+
+This course aims to provide a community and lecture series for students
+to learn the skills they will need to contribute to open-source projects,
+and large scale software engineering projects in general. If you have
+ever been interested in joining an open source project but felt that
+the barrier to entry was too high, this DeCal is for you!\\
+\\
+Projects will be worked on in groups of two or more people. 
+
+
+\section{Suggested Prerequisites}
+
+You\textquoteright{}ll get the most of out of this class if you\textquoteright{}re
+familiar with at least one language used for open source development
+(Python, Perl, PHP, Java, C++, C, Ruby and many more) to a 61B level.
+This course will tend towards technical contribution, but those interested
+in contributing in design or user experience areas are welcome too.
+
+
+\section{Grading Policy}
+
+The course will be offered only on a P/NP basis. The following points
+dictate requirements to be met to pass the course.
+
+
+\subsection{Attendance}
+
+The weekly DeCal meetings are mandatory. Up to two absences will be
+permitted for a passing grade. Please email or otherwise notify us
+ahead of time if you need to miss a meeting, and we\textquoteright{}ll
+let you know how you can make it up.
+
+
+\subsection{Contribution}
+
+Contribute to your chosen project through patch submission, UX improvement,
+or improving code documentation. One of the primary objectives of
+the class is to help you attain a familiarity with open source projects
+that prompts contribution to the community. As a part of this {}``assignment''
+post a note on your project page on the class wiki with your name,
+a link to your commit and a description of what you did. Each member
+of a project group will be required to have a contribution of their
+own.
+
+
+\subsection{Group Presentation}
+
+Make a presentation to the class summarizing your work on an open
+source project. Each project group will be expected to present for
+approximately 15 minutes, followed by an up to 5 minute question-and-answer
+session. Your presentation should contain or address the following
+points:
+\begin{itemize}
+\item A description of the open source project, detailing its function and
+licencing%
+\footnote{American English uses {}``licensing'' instead.%
+} structure.
+\item The version control, bug tracking, wiki and documentation systems
+used in the project.
+\item The bug or feature each project group member contributed to resolving/implementing.
+\end{itemize}
+
+\subsection{Assignments}
+
+Assignments may be handed out on certain weeks to help progress. These
+will not be graded. However, the assignments will tend to be tasks
+such as setting up development tools or wiki pages, or downloading
+and compiling source code. Their intention is to keep you on track
+towards conributing to your project and making the group presentation.
+
+
+\section{Learning Goals}
+
+Students will learn skills for working with large scale projects.
+These will include: 
+\begin{itemize}
+\item source control systems, bug trackers and software development wikis
+\item code review systems and how to write readable code 
+\item how to write and submit a clearly documented patch 
+\item code design, using automated tools, tricks of the trade
+\end{itemize}
+
+\section{Class Format}
+
+Meetings will be held on Mondays from 6-8PM in 320 Soda, and will
+consist of the following format: 
+\begin{itemize}
+\item Lecture -- We\textquoteright{}ll present material relating to the
+class themes for that week or frame case studies for class discussion
+\item Group Activity -- We\textquoteright{}ll frame specific activities
+relating to current course themes: for example, during discussion
+of code review approaches, a group activity could involve students
+reviewing each other\textquoteright{}s code
+\item Collaborative hacking -- Students will work on their projects, asking
+each other or the facilitators for assistance as needed.
+\end{itemize}
+Discussion between students is highly encouraged, and will be facilitated
+by a mailing list.
+
+
+\section{Draft Lecture Schedule}
+
+\begin{tabular}{|c|c|>{\centering}p{7cm}|}
+\hline 
+\textbf{Week} & \textbf{Topic(s)} & \textbf{Description}\tabularnewline
+\hline
+\hline 
+1 & Introduction & \tabularnewline
+\hline 
+2 & Where can I find open source projects? & Introduction to the open source community through project listings,
+social coding web sites and specific projects.\tabularnewline
+\hline 
+3 & Version Control, Project selections & \tabularnewline
+\hline 
+4 & Guest Lecture - Licencing & \tabularnewline
+\hline 
+5 & Bug tracking, Wikis & \tabularnewline
+\hline 
+6 & Guest Lecture - Talking about code & \tabularnewline
+\hline 
+7 & Diff tools, Patches, Hacking & \tabularnewline
+\hline 
+8 & Guest Lecture - Open Source Project & \tabularnewline
+\hline 
+9 & Presentations & \tabularnewline
+\hline 
+10 & Presentations & \tabularnewline
+\hline 
+11 & Presentations & \tabularnewline
+\hline 
+12 & Presentations, Closing Remarks & \tabularnewline
+\hline
+\end{tabular}
+
+
+\subsection{Getting Started}
+\begin{itemize}
+\item Choosing a project -- feature ideas -- bootstrapped from Google Summer
+of Code. 
+\item Using version control (distributed vs centralized) 
+\item IRC / Wiki use 
+\item Code Review -- how to talk about your code 
+\item How to read code -- assignment idea: read a snippet of open-source
+code and present what it does
+\item Building your project
+\end{itemize}
+
+\subsection{Making Contributions}
+\begin{itemize}
+\item Submitting bug reports -- bug tracker tools (Launchpad, bugzilla,
+trac and others) 
+\item Using diff tools, submitting patches 
+\item Reproducible errors -- the art of a good test case
+\item Documenting and commenting your code 
+\item Licensing and why it matters -- possibly guest discussion with Prof.
+Carver @ iSchool 
+
+\begin{itemize}
+\item GPL-what?
+\item Using open source code correctly in a commercial/production setting
+\end{itemize}
+\end{itemize}
+
+\subsection{Case Studies}
+\begin{itemize}
+\item Ubuntu -- Ayatana -- The life-cycle of a paper-cut bug
+\item SQLite -- an example of readable, well-documented code 
+\item Google Chrome and Webkit -- guest discussion with a Webkit contributer 
+\item More TBD
+\end{itemize}
+
+\section{Application}
+
+To apply for enrollment into the decal, visit the course website (at
+the top of this syllabus), and click on \textquotedblleft{}Application
+to join\textquotedblright{}. Fill out and submit the application by
+11:59 PM on Wednesday, Feb 2nd to be considered for enrollment.
+\end{document}
