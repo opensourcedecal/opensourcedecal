@@ -188,7 +188,7 @@ A description of the open source project, detailing its function and licencing
 status open
 
 \begin_layout Plain Layout
-American english uses 
+American English uses 
 \begin_inset Quotes eld
 \end_inset
 
@@ -221,9 +221,8 @@ Assignments
 \begin_layout Standard
 Assignments may be handed out on certain weeks to help progress.
  These will not be graded.
- However, with that said the assignments will tend to be tasks such as setting
- up development tools or wiki pages, or downloading and compiling source
- code.
+ However, the assignments will tend to be tasks such as setting up development
+ tools or wiki pages, or downloading and compiling source code.
  Their intention is to keep you on track towards conributing to your project
  and making the group presentation.
 \end_layout
