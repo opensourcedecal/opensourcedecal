@@ -18,8 +18,6 @@ See the [course
 syllabus](http://dl.dropbox.com/u/4509674/Open%20Source%20DeCal%20Syllabus.pdf)
 and the course wiki page for more information.
 
----
-
 ## Logistics ##
 
 We meet every *Thursday 6-8pm* at *310 Soda hall*. The first lecture will be on
