@@ -1,5 +1,5 @@
-#LyX 1.6.8 created this file. For more info see http://www.lyx.org/
-\lyxformat 345
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
 \begin_document
 \begin_header
 \textclass article
@@ -12,7 +12,7 @@
 \usepackage{fancyhdr}
 \setlength{\headheight}{15.2pt}
 \pagestyle{fancy}
-\lhead{calopensource@gmail.com}
+\lhead{opensourcedecal-facilitators@googlegroups.com}
 \chead{Course Syllabus}
 \rhead{Monday 6-8pm}
 
@@ -28,18 +28,26 @@
 \setlength{\extrarowheight}{5pt}
 \end_preamble
 \use_default_options true
+\maintain_unincluded_children false
 \language english
+\language_package default
 \inputencoding auto
+\fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
 \font_default_family default
+\use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
 
 \graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
 \paperfontsize default
 \spacing single
 \use_hyperref false
@@ -47,21 +55,31 @@
 \use_geometry false
 \use_amsmath 1
 \use_esint 1
+\use_mhchem 1
+\use_mathdots 1
 \cite_engine basic
 \use_bibtopic false
+\use_indices false
 \paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\defskip medskip
+\paragraph_indentation default
 \quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
 \tracking_changes false
 \output_changes false
-\author "" 
-\author "" 
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
 \end_header
 
 \begin_body
@@ -81,7 +99,7 @@ Facilitators:
 \begin_inset Newline newline
 \end_inset
 
-Intructor of Record: 
+Instructor of Record: 
 \series default
 David Wagner
 \end_layout
@@ -111,8 +129,18 @@ This course aims to provide a community and lecture series for students
 \begin_inset Newline newline
 \end_inset
 
-Projects will be worked on in groups of two or more people.
- 
+Groups of about 2-4 people will work on open source projects.
+\end_layout
+
+\begin_layout Section
+Application
+\end_layout
+
+\begin_layout Standard
+To apply for enrollment into the decal, visit the course website (at the
+ top of this syllabus), and click on “Application to join”.
+ Fill out and submit the application by 11:59:59 PM on Friday September
+ 2nd to be considered for enrollment.
 \end_layout
 
 \begin_layout Section
@@ -303,7 +331,7 @@ Draft Lecture Schedule
 \begin_layout Standard
 \begin_inset Tabular
 <lyxtabular version="3" rows="13" columns="3">
-<features>
+<features tabularvalignment="middle">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="0">
 <column alignment="center" valignment="top" width="7cm">
@@ -783,17 +811,6 @@ Google Chrome and Webkit -- guest discussion with a Webkit contributer
 
 \begin_layout Itemize
 More TBD
-\end_layout
-
-\begin_layout Section
-Application
-\end_layout
-
-\begin_layout Standard
-To apply for enrollment into the decal, visit the course website (at the
- top of this syllabus), and click on “Application to join”.
- Fill out and submit the application by 11:59 PM on Wednesday, Feb 2nd to
- be considered for enrollment.
 \end_layout
 
 \end_body
